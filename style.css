@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #fff;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-left {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+#info-right {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    text-align: right;
+}
+
+#bomb-grab-area {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: grab;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+#congratulations {
+    position: absolute;
+    visibility: hidden;
+  }
